@@ -32,7 +32,7 @@ python -u run_kgqa.py --dataset webqsp --task EL --use_api --use_indexing --QAty
 ```
 
 ## 📜 License
-MIT
+[MIT](https://github.com/rashad101/Tree-KGQA/blob/main/LICENSE.md)
 
 ## 📝 Citation
 ```text
