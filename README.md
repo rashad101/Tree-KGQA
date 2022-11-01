@@ -15,7 +15,7 @@ pip install -r requirements.txt
 chmod +x setup.sh
 ./setup.sh
 ```
-<strong>Note: the code require more cleaning and re-adjustment of the function names.</strong>
+<strong>Note: the code require more cleaning.</strong>
 
 ## 🔧 Pre-processing
 
