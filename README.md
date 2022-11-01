@@ -15,6 +15,8 @@ pip install -r requirements.txt
 chmod +x setup.sh
 ./setup.sh
 ```
+<strong>Note: the code require more cleaning and re-adjustment of the function names.</strong>
+
 ## 🔧 Pre-processing
 
 We use Wikidata entities provided by [ELQ](https://arxiv.org/pdf/2010.02413.pdf) . In order to perform inference, first index the Wikidata entities by executing the follwing command:
