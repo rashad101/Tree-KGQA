@@ -1,0 +1,13 @@
+tqdm
+transformers==3.1.0
+torch==1.5.1
+numpy
+pandas
+gensim==4.0.0
+spacy
+loguru
+fuzzywuzzy
+sentence-transformers
+faiss-cpu
+sparqlwrapper
+qwikidata
