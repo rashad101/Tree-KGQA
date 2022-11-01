@@ -12,7 +12,6 @@ Required : [Anaconda](https://www.anaconda.com/products/individual)
 ```commandline
 conda create -n treekgqa -y python=3.8 && source activate treekgqa
 pip install -r requirements.txt
-
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -22,7 +21,7 @@ We use Wikidata entities provided by [ELQ](https://arxiv.org/pdf/2010.02413.pdf)
 ```python
 python utils/indexer.py --output_path data/wikidata/indexed_wikidata_entities.pkl --faiss_index hnsw --save_index
 ```
-The indexing might take few hours depending on your system capabilities and resource.
+Indexing might take few hours depending on the system capabilities and resource.
 
 ## 🎯 Inference
 To test entity linking on the ```webqsp``` dataset run the following command:
@@ -47,3 +46,6 @@ python -u run_kgqa.py --dataset webqsp --task EL --use_api --use_indexing --QAty
     doi={10.1109/ACCESS.2022.3173355}
   }
 ```
+
+### Contact
+For further information, contact the corresponding author Md Rashad Al Hasan Rony ([email](mailto:rashad.research@gmail.com)).
